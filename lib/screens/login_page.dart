@@ -11,6 +11,8 @@ class _LoginState extends State<Login> {
   String name = " ";
   bool changebtn = false;
   final _formkey = GlobalKey<FormState>();
+  RegExp regex =
+      RegExp(r'^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[!@#\$&*~]).{8,}$');
   moveToHome(BuildContext context) async {
     if (_formkey.currentState!.validate()) {
       setState(() {
@@ -63,6 +65,8 @@ class _LoginState extends State<Login> {
                     validator: (value) {
                       if (value!.isEmpty) {
                         return "Username Can Not Be Empty.";
+                      } else if (value.length < 6) {
+                        return "Username Length Requrired Up To Six Letters.";
                       }
                       return null;
                     },
@@ -80,11 +84,14 @@ class _LoginState extends State<Login> {
                         hintText: "Enter Password", labelText: "Password"),
                     validator: (value) {
                       if (value!.isEmpty) {
-                        return "Password Can Not Be Empty.";
-                      } else if (value.length < 6) {
-                        return "Password Length Requrired Six Letters.";
+                        return 'Please enter password';
+                      } else {
+                        if (!regex.hasMatch(value)) {
+                          return 'Enter valid password';
+                        } else {
+                          return null;
+                        }
                       }
-                      return null;
                     },
                   ),
                   const SizedBox(
