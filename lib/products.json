@@ -1,0 +1,100 @@
+{
+    "products": [
+        {
+            "id": "Codepure001",
+            "name": "i Phone 12 Pro Max",
+            "desc": "64GB Storage",
+            "price": 57900,
+            "color": "#0d0100",
+            "image": "https://cdn.dxomark.com/wp-content/uploads/medias/post-80694/Apple-iPhone-12-Pro-Max-Blue-Yoast-image-packshot-review.jpg"
+        },
+        {
+            "id": "Codepure002",
+            "name": "i phone 14 pro max",
+            "desc": "128GB Storage",
+            "price": 41500,
+            "color": "#301934",
+            "image": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/iphone-14-pro-finish-select-202209-6-7inch-deeppurple?wid=2560&hei=1440&fmt=p-jpg&qlt=80&.v=1663703841896"
+        },
+        {
+            "id": "Codepure003",
+            "name": "i phone 11",
+            "desc": "16GB Storage",
+            "price": 34900,
+            "color": "#FFFFFF",
+            "image": "https://vexclusive.in/2989-thickbox_default/apple-iphone-11-128gb-refurbished-very-good.jpg"
+        },
+        {
+            "id": "Codepure004",
+            "name": "i phone 11 pro",
+            "desc": "32GB Storage",
+            "price": 39900,
+            "color": "#FFFFFF",
+            "image": "data:image/jpeg;base64,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"
+        },
+        {
+            "id": "Codepure005",
+            "name": "redmi note 9",
+            "desc": "128GB Storage And 8GB RAM",
+            "price": 12850,
+            "color": "#000000",
+            "image": "https://m.media-amazon.com/images/I/41zD4GN4E2L._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure006",
+            "name": "redmi note 9 pro",
+            "desc": "128GB Storage And 8GB RAM",
+            "price": 15900,
+            "color": "#000000",
+            "image": "https://m.media-amazon.com/images/I/41%2BcwZKB5vL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure007",
+            "name": "1 pulse 8 pro",
+            "desc": "64GB Storage And 8GB RAM",
+            "price": 28999,
+            "color": "#6E6D6D",
+            "image": "https://m.media-amazon.com/images/I/41qLZhKF5ZL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure008",
+            "name": "samsung s20",
+            "desc": "64GB Storage And 8GB RAM",
+            "price": 34999,
+            "color": "#545151",
+            "image": "https://m.media-amazon.com/images/I/41ezRvTwcaL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure009",
+            "name": "samsung s23",
+            "desc": "264GB Storage And 16GB RAM",
+            "price": 74798,
+            "color": "#966B6B",
+            "image": "https://m.media-amazon.com/images/I/41QPv5h1veL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure010",
+            "name": "samsung s10",
+            "desc": "264GB Storage And 16GB RAM",
+            "price": 71000,
+            "color": "#000000",
+            "image": "https://img1.gadgetsnow.com/gd/images/products/additional/large/G105828_View_1/mobiles/smartphones/samsung-galaxy-s10-128-gb-prism-white-8-gb-ram-.jpg"
+        },
+        {
+            "id": "Codepure011",
+            "name": "realme 10",
+            "desc": "64GB Storage And 8GB RAM",
+            "price": 16882,
+            "color": "#E4AFEA",
+            "image": "https://m.media-amazon.com/images/I/41kIUfqB7rL._SX300_SY300_QL70_FMwebp_.jpg"
+        },
+        {
+            "id": "Codepure012",
+            "name": "realme 10 pro plus",
+            "desc": "128GB Storage And 16GB RAM",
+            "price": 25999,
+            "color": "#000000",
+            "image": "https://img3.gadgetsnow.com/gd/images/products/additional/large/G406451_View_1/mobiles/smartphones/realme-10-pro-plus-128-gb-nebula-blue-6-gb-ram-.jpg"
+        }
+    ]
+}
