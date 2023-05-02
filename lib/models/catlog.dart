@@ -14,4 +14,3 @@ class item {
       required this.imageurl,
       required this.price});
 }
-// final products = [item(id: , name: name, desc: desc, color: color, imageurl: imageurl, price: price)]
