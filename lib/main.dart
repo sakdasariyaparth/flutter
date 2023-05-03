@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:you_tube2/screens/login_page.dart';
 import 'package:you_tube2/utils/routes.dart';
+import 'package:you_tube2/widg/theme.dart';
 import 'screens/home_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -17,18 +18,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-        primarySwatch: Colors.purple,
-        fontFamily: GoogleFonts.lato().fontFamily,
-      ),
-      darkTheme: ThemeData(
-        primarySwatch: Colors.purple,
-        // brightness: Brightness.dark,
-      ),
-      initialRoute: "/",
+      theme: MyTheme.LightTheme(context),
+      darkTheme: MyTheme.darkTheme(context),
+      initialRoute: MyRouts.homeroutes,
       routes: {
-        "/": (context) => LoginPage(),
-        MyRouts.loginroutes: (context) => LoginPage(),
+        "/": (context) => Login(),
+        MyRouts.loginroutes: (context) => Login(),
         MyRouts.homeroutes: (context) => HomePage(),
       },
     );

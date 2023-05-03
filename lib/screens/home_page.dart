@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widg/drawer.dart';
+
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
@@ -12,7 +14,7 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Container(child: Text("FLUTTER IS BACK IN WORK")),
       ),
-      drawer: Drawer(),
+      drawer: const MyDrawer(),
     );
   }
 }
