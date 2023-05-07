@@ -26,4 +26,8 @@ class Item {
       required this.color,
       required this.imageurl,
       required this.price});
+
+  // factory Item.fromMap(Map<String, dynamic> map) {
+  //   Item(id: map["id"]);
+  // }
 }

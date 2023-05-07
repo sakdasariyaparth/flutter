@@ -3,10 +3,9 @@ import 'package:you_tube2/screens/login_page.dart';
 import 'package:you_tube2/utils/routes.dart';
 import 'package:you_tube2/widg/theme.dart';
 import 'screens/home_page.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -23,8 +22,8 @@ class MyApp extends StatelessWidget {
       initialRoute: MyRouts.homeroutes,
       routes: {
         "/": (context) => Login(),
+        MyRouts.homeroutes: (context) => const HomePage(),
         MyRouts.loginroutes: (context) => Login(),
-        MyRouts.homeroutes: (context) => HomePage(),
       },
     );
   }
